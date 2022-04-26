@@ -1,6 +1,6 @@
 variable "foo" {
   type = string
-  default = "bar"
+  default = "qux"
 }
 
 output "output_of_run_variable" {
