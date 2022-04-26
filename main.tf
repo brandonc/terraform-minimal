@@ -14,3 +14,9 @@ resource "null_resource" "null" {
     hello: "world"
   }
 }
+
+resource "null_resource" "another" {
+  triggers = {
+    hello: "mister"
+  }
+}
