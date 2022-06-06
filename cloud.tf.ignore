@@ -3,7 +3,6 @@ terraform {
     organization = "hashicorp"
     # hostname = "app.terraform.io"
     # hostname = "app.staging.terraform.io"
-    hostname = "tfcdev-5839ba17.ngrok.io"
 
     workspaces {
       name = "terraform-minimal"
